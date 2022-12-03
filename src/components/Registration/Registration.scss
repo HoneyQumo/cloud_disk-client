@@ -1,0 +1,30 @@
+@import '../../utils/colors.scss';
+.registration {
+	display: flex;
+	align-self: center;
+	margin-top: 200px;
+
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	background: white;
+	width: 550px;
+	border-radius: 5px;
+	padding: 20px;
+
+	-webkit-box-shadow: 0px 0px 10px 3px rgba(92, 92, 92, 0.25);
+	-moz-box-shadow: 0px 0px 10px 3px rgba(92, 92, 92, 0.25);
+	box-shadow: 0px 0px 10px 3px rgba(92, 92, 92, 0.25);
+
+	&__title {
+		margin-bottom: 20px;
+		font-size: 28px;
+		color: $mainText;
+		font-weight: 700;
+		line-height: 33px;
+	}
+	.Button {
+		align-self: flex-end;
+	}
+}

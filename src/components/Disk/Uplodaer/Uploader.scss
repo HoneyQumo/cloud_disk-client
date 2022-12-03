@@ -1,0 +1,33 @@
+@import "../../../utils/colors.scss";
+
+.uploader {
+  //transition: height ease-out 0.5s;
+  height: 300px;
+  width: 300px;
+  position: fixed;
+  background-color: $mainText;
+  bottom: 0;
+  right: 0;
+  padding: 10px;
+  border-radius: 12px 12px 0 0;
+  margin-right: 20px;
+  overflow-y: auto;
+  // .uploader__header
+  &__header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  // .uploader__title
+  &__title {
+    color: $bodyBackground;
+    font-size: 1.2rem;
+  }
+
+  // .uploader__close
+  &__close {
+    padding: 3px 6px;
+    font-weight: 600;
+    border-radius: 4px;
+  }
+}

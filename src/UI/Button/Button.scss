@@ -1,0 +1,12 @@
+@import '../../utils/colors.scss';
+.Button {
+	background-color: $mainText;
+
+	color: $navbarBackground;
+	font-size: 22px;
+	font-weight: 700;
+	line-height: 26px;
+
+	border-radius: 12px;
+	padding: 4px 8px;
+}
